@@ -1,0 +1,44 @@
+.slider-container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  display: flex;
+}
+
+.slide {
+  display: none;
+  width: 1036px;
+  height: 1400px;
+  height: auto;
+}
+
+.active {
+  display: block;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
